@@ -1,12 +1,11 @@
 import { Component, Watch } from 'vue-property-decorator';
 import ChatbotWindowsBase from 'components/page-components/Chatbot/windows/ChatbotWindowsBase.vue';
-import { $t } from 'services/i18n';
 import * as _ from 'lodash';
 import ValidatedForm from 'components/shared/inputs/ValidatedForm.vue';
 
 import { IGamblePreferencesResponse } from 'services/chatbot';
 
-import { EInputType, metadata, formMetadata } from 'components/shared/inputs/index';
+import { metadata, formMetadata } from 'components/shared/inputs/index';
 import { debounce } from 'lodash-decorators';
 
 @Component({

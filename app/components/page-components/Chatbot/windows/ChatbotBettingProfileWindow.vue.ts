@@ -1,12 +1,9 @@
-import { Component, Prop, Watch } from 'vue-property-decorator';
-import ChatbotWindowsBase from 'components/page-components/Chatbot/windows/ChatbotWindowsBase.vue';
+import { Component } from 'vue-property-decorator';
 import { $t } from 'services/i18n';
 import * as _ from 'lodash';
-import { IChatbotErrorResponse, IBettingProfile, IBettingOption } from 'services/chatbot';
-import { EInputType, metadata, formMetadata } from 'components/shared/inputs/index';
+import { IBettingProfile, IBettingOption } from 'services/chatbot';
+import { metadata, formMetadata } from 'components/shared/inputs/index';
 import ValidatedForm from 'components/shared/inputs/ValidatedForm.vue';
-import { ITab } from 'components/Tabs.vue';
-import { debounce } from 'lodash-decorators';
 import ChatbotBetOptionModal from '../Bet/ChatbotBetOptionModal.vue';
 import ChatbotPollProfileWindow from './ChatbotPollProfileWindow.vue';
 

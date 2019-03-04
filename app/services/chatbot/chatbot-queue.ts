@@ -14,7 +14,6 @@ import {
   IQueueEntriesResponse,
   IQueuePickedResponse,
   IQueuedUser,
-  IQueueTotalResponse,
   IQueueLeaveData,
 } from './chatbot-interfaces';
 

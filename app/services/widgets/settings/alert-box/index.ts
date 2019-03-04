@@ -4,7 +4,6 @@ import { WIDGET_INITIAL_STATE } from '../widget-settings';
 import { InheritMutations } from 'services/stateful-service';
 import {
   IAlertBoxApiSettings,
-  IAlertBoxMixerSettings,
   IAlertBoxSetting,
   IAlertBoxSettings,
   IAlertBoxVariation,

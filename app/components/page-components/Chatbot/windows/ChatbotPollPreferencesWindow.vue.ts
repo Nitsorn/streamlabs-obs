@@ -4,7 +4,7 @@ import { $t } from 'services/i18n';
 import * as _ from 'lodash';
 import ValidatedForm from 'components/shared/inputs/ValidatedForm.vue';
 
-import { IHeistPreferencesResponse, IPollPreferencesResonse } from 'services/chatbot';
+import { IPollPreferencesResonse } from 'services/chatbot';
 
 import { EInputType, formMetadata } from 'components/shared/inputs/index';
 import { ITab } from 'components/Tabs.vue';
